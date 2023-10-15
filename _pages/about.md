@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>ETZ G 93</p>
+    <p>ETZ G93,</p>
     <p>Gloriastrasse 35</p>
     <p>Zurich 8092, Switzerland</p>
 
