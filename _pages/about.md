@@ -6,7 +6,7 @@ subtitle: <a href='https://disco.ethz.ch/members/aconstantine'>ETH Zurich</a>. "
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ETZ G93,</p>
