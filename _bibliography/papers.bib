@@ -39,6 +39,11 @@
   abbr={AAMAS 23},
   arxiv={2303.00660},
   html={https://dl.acm.org/doi/abs/10.5555/3545946.3598879},
+  abstract={An assembly of \(n\) voters needs to decide on \(t\) independent binary issues. Each voter has opinions about the issues, given by a \(t\)-bit vector. Anscombe's paradox shows that a policy following the majority opinion in each issue may not survive a vote by the very same set of \(n\) voters, i.e., more voters may feel unrepresented by such a majority-driven policy than represented. A natural resolution is to come up with a policy that deviates a bit from the majority policy but no longer gets more opposition than support from the electorate.
+We show that a Hamming distance to the majority policy of at most \(\lfloor(t - 1) / 2\rfloor\) can always be guaranteed, by giving a new probabilistic argument relying on structure-preserving symmetries of the space of potential policies.
+Unless the electorate is evenly divided between the two options on all issues, we in fact show that a policy strictly winning the vote exists within this distance bound. 
+Our approach also leads to a deterministic polynomial-time algorithm for finding policies with the stated guarantees, answering an open problem of previous work. For odd \(t\), unless we are in the pathological case described above, we also give a simpler and more efficient algorithm running in expected polynomial time with the same guarantees.
+We further show that checking whether distance strictly less than \(\lfloor(t - 1) / 2\rfloor\) can be achieved is NP-hard, and that checking for distance at most some input \(k\) is FPT with respect to several natural parameters.}
   bibtex_show={true},
 }
 
