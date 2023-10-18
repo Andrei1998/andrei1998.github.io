@@ -282,7 +282,12 @@ scholar:
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  #bibtex_filters: [latex, smallcaps, superscript]
+  # The above solution does break some things:
+  # - https://github.com/inukshuk/jekyll-scholar/issues/2 (solution I used in the end, at the end).
+  # - https://github.com/inukshuk/jekyll-scholar#configuration (why the above flags are not needed).
+  # - https://github.com/alshedivat/al-folio/pull/381 (more on the issue).
+  bibtex_filters: pandoc
 
   replace_strings: true
   join_strings: true

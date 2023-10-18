@@ -24,4 +24,6 @@ end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
+    gem 'bibtex-ruby'
+    gem 'pandoc-ruby'
 end
