@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to WINE.
+Two papers accepted to WINE'23.

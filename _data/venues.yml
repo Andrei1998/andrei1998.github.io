@@ -1,6 +1,22 @@
+"AAAI 21":
+  url: https://aaai.org/conference/aaai/aaai-21/
+  color: "#fbbd3c"
+
+"IJCAI 22":
+  url: https://ijcai-22.org/
+  color: "#bc131f"
+
+"AAMAS 23":
+  url: https://aamas2023.soton.ac.uk/
+  color: "#00369f"
+
+"WINE 23":
+  url: https://wine2023.shanghaitech.edu.cn/
+  color: "#ac5eec"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+  color: ""
 
 "PhysRev":
   url: https://journals.aps.org/
