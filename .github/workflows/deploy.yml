@@ -35,8 +35,8 @@ jobs:
         value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
+        apt-get install pandoc
         pip3 install --upgrade jupyter
-        npm install -g node-pandoc
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
