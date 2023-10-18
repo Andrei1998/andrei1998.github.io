@@ -227,6 +227,8 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - bibtex
+  - pandoc-ruby
 
 # Sitemap settings
 defaults:
