@@ -145,6 +145,9 @@
       {%- endif %}
       {%- if entry.bibtex_show %}
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      {%- if entry.eprint_to_show %}
+      <a href="https://eprint.iacr.org/{{ entry.eprint_to_show }}" class="btn btn-sm z-depth-0" role="button">ePrint</a>
+      {%- endif %}
       {%- endif %}
       {%- if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">Official</a>

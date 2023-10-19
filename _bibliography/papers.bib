@@ -1,5 +1,19 @@
 ---
 ---
+@misc{constantinescu2023convex,
+  author = {Constantinescu, Andrei and Ghinea, Diana and Wattenhofer, Roger and Westermann, Floris},
+  title = {Meeting in a Convex World: Convex Consensus with Asynchronous Fallback},
+  howpublished = {Cryptology ePrint Archive, Paper 2023/1364},
+  year = {2023},
+  url = {https://eprint.iacr.org/2023/1364},
+  abstract={Convex Consensus (CC) allows a set of parties to agree on a value \(v\) inside the convex hull of their inputs with respect to a predefined convexity notion, even in the presence of byzantine parties. In this work, we focus on achieving CC in the best-of-both-worlds paradigm, i.e., simultaneously tolerating at most \(t_s\) corruptions if communication is synchronous, and at most \(t_a \leq t_s\) corruptions if it is asynchronous. Our protocol is randomized, which is a requirement under asynchrony, and we prove that it achieves optimal resilience.
+In the process, we introduce communication primitives tailored to the best-of-both-worlds model, which we believe to be of independent interest. These are a deterministic primitive, which allows honest parties to obtain intersecting views, and a randomized primitive, leading to identical views (which is impossible to achieve deterministically).
+Afterwards, we consider achieving consensus using deterministic protocols, for which the agreement condition must be appropriately relaxed depending on the convexity space. For the relevant case of graph convexity spaces, we find that a previous asynchronous approximate agreement protocol for chordal graphs is incorrect, and hereby give a new protocol for the problem designed for the best-of-both-worlds model and achieving tight point-wise resilience bounds. Finally, we show that asynchronous graph approximate agreement remains unsolvable by deterministic protocols even when corruptions are restricted to at most two crashing nodes and the distance agreement threshold is linear in the size of the graph.},
+  abbr={ePrint},
+  eprint_to_show={2023/1364},
+  bibtex_show={true},
+  selected=true,
+}
 
 @misc{constantinescu2023fair,
   title={A Fair and Resilient Decentralized Clock Network for Transaction Ordering}, 
@@ -29,6 +43,7 @@ In this work, we present the Decentralized Clock Network, a new approach for ach
   arxiv={2305.09549},
   abstract={A group of \(n\) agents with numerical preferences for each other are to be assigned to the $n$ seats of a dining table. We study two natural topologies:~circular (cycle) tables and panel (path) tables. For a given seating arrangement, an agent's utility is the sum of their preference values towards their (at most two) direct neighbors. An arrangement is envy-free if no agent strictly prefers someone else's seat, and it is stable if no two agents strictly prefer each other's seats. Recently, it was shown that for both paths and cycles it is NP-hard to decide whether an envy-free arrangement exists, even for symmetric binary preferences. In contrast, we show that, if agents come from a bounded number of classes, the problem is solvable in polynomial time for arbitrarily-valued possibly asymmetric preferences, including outputting an arrangement if possible. We also give simpler proofs of the previous hardness results if preferences are allowed to be asymmetric. For stability, it is known that deciding the existence of stable arrangements is NP-hard for both topologies, but only if sufficiently-many numerical values are allowed. As it turns out, even constructing unstable instances can be challenging in certain cases, e.g., binary values. We propose a complete characterization of the existence of stable arrangements based on the number of distinct values in the preference matrix and the number of agent classes. We also ask the same question for non-negative values and give an almost-complete characterization, the most interesting outstanding case being that of paths with two-valued non-negative preferences, for which we experimentally find that stable arrangements always exist and prove it under the additional constraint that agents can only swap seats when sitting at most two positions away. Similarly to envy-freeness, we also give a polynomial-time algorithm for determining a stable arrangement assuming a bounded number of classes. We moreover consider the swap dynamics and exhibit instances where they do not converge, despite a stable arrangement existing.},
   bibtex_show={true},
+  selected=true,
 }
 
 @InProceedings{Constantinescu2023RecoveringSingleCrossing,
@@ -67,6 +82,7 @@ Our approach also leads to a deterministic polynomial-time algorithm for finding
 We further show that checking whether distance strictly less than \(\lfloor(t - 1) / 2\rfloor\) can be achieved is NP-hard, and that checking for distance at most some input \(k\) is FPT with respect to several natural parameters.},
   slides={best_policy_aamas_slides.pdf},
   bibtex_show={true},
+  selected=true,
 }
 
 @InProceedings{Constantinescu2022TwoCrossing,
@@ -108,86 +124,5 @@ We further show that checking whether distance strictly less than \(\lfloor(t - 
 and develop a \(O(nmk)\) algorithm for this case as well.},
   slides    = {single_crossing_cc_slides.pdf},
   bibtex_show={true},
-}
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  selected=true,
 }
