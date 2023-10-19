@@ -1,5 +1,24 @@
 ---
 ---
+
+@misc{constantinescu2023fair,
+  title={A Fair and Resilient Decentralized Clock Network for Transaction Ordering}, 
+  author={Constantinescu, Andrei and Ghinea, Diana and Heimbach, Lioba and Wang, Zilin and Wattenhofer, Roger},
+  year={2023},
+  eprint={2305.05206},
+  arxiv={2305.05206},
+  archivePrefix={arXiv},
+  abstract={Traditional blockchain design gives miners or validators full control over transaction ordering, i.e., they can freely choose which transactions to include or exclude, as well as in which order. While not an issue initially, the emergence of decentralized finance has introduced new transaction order dependencies allowing parties in control of the ordering to make a profit by front-running others' transactions.
+In this work, we present the Decentralized Clock Network, a new approach for achieving fair transaction ordering. Users submit their transactions to the network's clocks, which run an agreement protocol that provides each transaction with a timestamp of receipt which is then used to define the transactions' order. By separating agreement from ordering, our protocol is efficient and has a simpler design compared to other available solutions. Moreover, our protocol brings to the blockchain world the paradigm of asynchronous fallback, where the algorithm operates with stronger fairness guarantees during periods of synchronous use, switching to an asynchronous mode only during times of increased network delay.},
+  primaryClass={cs.DC},
+  abbr={arXiv},
+  bibtex_show={true},
+}
+
+%%%%%%%%%%%%%%%%%%%%
+% Conference Papers.
+%%%%%%%%%%%%%%%%%%%%
+
 @InProceedings{Berriaud2023StableDinnerParty,
 	title = {Stable Dinner Party Seating Arrangements},
   author = {Berriaud, Damien and Constantinescu, Andrei and Wattenhofer, Roger},
@@ -46,6 +65,7 @@ We show that a Hamming distance to the majority policy of at most \(\lfloor(t - 
 Unless the electorate is evenly divided between the two options on all issues, we in fact show that a policy strictly winning the vote exists within this distance bound. 
 Our approach also leads to a deterministic polynomial-time algorithm for finding policies with the stated guarantees, answering an open problem of previous work. For odd \(t\), unless we are in the pathological case described above, we also give a simpler and more efficient algorithm running in expected polynomial time with the same guarantees.
 We further show that checking whether distance strictly less than \(\lfloor(t - 1) / 2\rfloor\) can be achieved is NP-hard, and that checking for distance at most some input \(k\) is FPT with respect to several natural parameters.},
+  slides={best_policy_aamas_slides.pdf},
   bibtex_show={true},
 }
 
@@ -65,6 +85,7 @@ We further show that checking whether distance strictly less than \(\lfloor(t - 
   abbr      = {IJCAI 22},
   abstract  = {We introduce two-crossing elections as a generalization of single-crossing elections, showing a number of new results. First, we show that two-crossing elections can be recognized in polynomial time, by reduction to the well-studied consecutive ones problem. We also conjecture that recognizing \(k\)-crossing elections is NP-complete in general, providing evidence by relating to a problem similar to consecutive ones proven to be hard in the literature. Single-crossing elections exhibit a transitive majority relation, from which many important results follow. On the other hand, we show that the classical Debord-McGarvey theorem can still be proven two-crossing, implying that any weighted majority tournament is inducible by a two-crossing election. This shows that many voting rules are NP-hard under two-crossing elections, including Kemeny and Slater. This is in contrast to the single-crossing case and outlines an important complexity boundary between single- and two-crossing. Subsequently, we show that for two-crossing elections the Young scores of all candidates can be computed in polynomial time, by formulating a totally unimodular linear program. Finally, we consider the Chamberlin-Courant rule with arbitrary disutilities and show that a winning committee can be computed in polynomial time, using an approach based on dynamic programming.},
   arxiv     = {2205.00474},
+  slides    = {two_crossing_slides.pdf},
   bibtex_show={true},
 }
 
@@ -85,6 +106,7 @@ We further show that checking whether distance strictly less than \(\lfloor(t - 
 (where \(n\), \(m\), \(k\) are the number of voters, the number of candidates and the committee size, respectively); we show that a simple tweak improves the time complexity to \(O(nmk)\). We then improve this bound for \(k=\Omega(\log n)\) by reducing our problem to the \(k\)-link path problem for DAGs with concave Monge weights, obtaining a
 \(nm2^{O\left(\sqrt{\log k\log\log n}\right)}\) algorithm for the general case and a nearly linear algorithm for the Borda misrepresentation function. For trees, we point out an issue with the algorithm proposed by Clearwater, Puppe, and Slinko (2015), 
 and develop a \(O(nmk)\) algorithm for this case as well.},
+  slides    = {single_crossing_cc_slides.pdf},
   bibtex_show={true},
 }
 
