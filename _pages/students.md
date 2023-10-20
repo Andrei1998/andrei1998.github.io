@@ -9,6 +9,6 @@ nav_order: 1
 <!-- _pages/students.md -->
 <div class="publications">
 
-{% bibliography -f students.bib %}
+{% bibliography group_by: year -f students.bib %}
 
 </div>
