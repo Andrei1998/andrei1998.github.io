@@ -19,3 +19,15 @@
 "AAAI 21":
   url: https://aaai.org/conference/aaai/aaai-21/
   color: "#fbbd3c"
+
+# Student thesis types.
+"Bachelor":
+  color: "#45ba13"
+
+# "Semester":
+#   color: "#f8bb00"
+"Semester":
+  color: "#00a0f8"
+
+"Master":
+  color: "#bc131f"
