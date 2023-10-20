@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/students.md -->
-<div class="students">
+<div class="publications">
 
 {% bibliography -f students.bib %}
 
