@@ -61,5 +61,6 @@ layout: default
   </article>
 
 </div>
-<iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" width="auto" height="800"></iframe>
+<iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" width="{{ site.max_width }}" height="800">
+</iframe>
 {% endunless %}
