@@ -1,11 +1,10 @@
 {
   "basics": {
-    "name": "Andrei Constantinescu",
-    "label": "PhD Student and Research Assistent",
+    "Name": "Andrei Constantinescu",
+    "Position": "PhD Student and Research Assistent",
     "image": "",
-    "email": "aconstantine@ethz.ch",
-    "ETH link": "https://disco.ethz.ch/members/aconstantine",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "Email": "aconstantine@ethz.ch",
+    "ETH Link": "https://disco.ethz.ch/members/aconstantine",
     "location": {
       "address": "Badenerstrasse 701",
       "postalCode": "8048",
