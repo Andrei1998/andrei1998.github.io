@@ -61,7 +61,6 @@ layout: default
   </article>
 
 </div>
-<embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url={{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="{{ site.max_width }}"
-  height="1000" type="application/pdf">
+<embed src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="{{ site.max_width }}" height="800"
+  type="application/pdf">
 {% endunless %}
