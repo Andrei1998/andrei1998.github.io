@@ -61,6 +61,6 @@ layout: default
   </article>
 
 </div>
-<embed src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="{{ site.max_width }}" height="800"
+<object data="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="{{ site.max_width }}" height="800"
   type="application/pdf">
-{% endunless %}
+  {% endunless %}
