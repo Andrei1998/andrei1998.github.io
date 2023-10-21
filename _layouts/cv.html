@@ -61,6 +61,6 @@ layout: default
   </article>
 
 </div>
-<object data="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="{{ site.max_width }}" height="800"
-  type="application/pdf">
-  {% endunless %}
+<iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="{{ site.max_width }}"
+  height="800"></iframe>
+{% endunless %}
