@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<!-- _layouts/teaching.html -->
+{% unless site.data.teaching %}
+</p> Missing teaching file. </p>
+{% else %}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }} </h1>
+    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article>
+    I teach, coordinate, and sometimes deliver lectures for the courses offered by our group.
+    <div class="cv"> <!-- cv to keep formatting. -->
+      {% for data in site.data.teaching %}
+      {% if site.jsonteaching and site.jsonteaching.size > 0 %}
+      {% unless site.jsonteaching contains data[0] %}
+      {% continue %}
+      {% endunless %}
+      {% endif %}
+      {% if data[0] == "meta" or data[1].size == 0 %}
+      {% continue %}
+      {% endif %}
+      {% include teaching/ta-entry.html %}
+      {% endfor %}
+    </div>
+  </article>
+
+</div>
+{% endunless %}

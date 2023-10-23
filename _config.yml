@@ -413,6 +413,9 @@ medium_zoom:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+  - data : teaching
+    json: assets/json/teaching.json # it can also be an url
+
 jsonresume:
   - none
   # - basics
@@ -427,3 +430,8 @@ jsonresume:
   # - languages
   # - interests
   # - references
+
+jsonteaching:
+  - Principles of Distributed Computing
+  - Distributed Systems
+  - Computational Thinking
