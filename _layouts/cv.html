@@ -61,6 +61,15 @@ layout: default
   </article>
 
 </div>
-<iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" width="{{ site.max_width }}" height="800">
-</iframe>
+
+<div class="desktop">Pc-ul nostru</div>
+
+<div id="hiddenOnMobile" style="display:none">
+  <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" width="{{ site.max_width }}" height="800">
+  </iframe>    
+</div>
+  
+<script type="text/javascript">
+document.getElementById('hideThisFromNonJs').style.display='block';
+</script>
 {% endunless %}
