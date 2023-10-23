@@ -9,7 +9,6 @@ nav_order: 1
 
 If you want to pursue a thesis with me, please check <a href="https://disco.ethz.ch/members/aconstantine">my
 university page</a> for current availability. I welcome original ideas.
-  
 
 <!-- _pages/students.md -->
 <div class="publications">

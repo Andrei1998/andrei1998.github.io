@@ -67,6 +67,11 @@ layout: default
   <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" width="{{ site.max_width }}" height="800">
   </iframe>
 </div>
+
+<div id="cv_alternative">
+  <p> Download from "PDF" icon above. </p>
+</div>
+
 <script type="text/javascript">
   // https://stackoverflow.com/questions/5181346/how-can-i-write-html-code-only-if-js-is-enabled
   window.mobileCheck = function () {
@@ -76,6 +81,7 @@ layout: default
   };
   if (!window.mobileCheck()) {
     document.getElementById('cv_iframe').style.display = 'block';
+    document.getElementById('cv_alternative').style.display = 'none';
   }
 </script>
 {% endunless %}
