@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://disco.ethz.ch/members/aconstantine'>ETH Zurich</a>. "Because it's fun to think!"
+subtitle: <em>Because it's fun to think!</em>
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>ETZ G93,</p>
-    <p>Gloriastrasse 35</p>
-    <p>Zurich 8092, Switzerland</p>
+  more_info: #>
+    # <p>ETZ G93,</p>
+    # <p>Gloriastrasse 35</p>
+    # <p>Zurich 8092, Switzerland</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,8 +19,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third-year :romania: [PhD student](https://disco.ethz.ch/members/aconstantine) advised by [Prof. Roger Wattenhofer](https://disco.ethz.ch/members/wroger) in the [Distributed Computing Group](https://disco.ethz.ch/) at [ETH Zurich](https://ethz.ch/en.html). :switzerland:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research centers around **computational aspects of social choice and game theory**. In particular, designing and analyzing mechanisms driving efficiency, stability and fairness of collective decision making.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+More broadly, I am interested in **algorithms** and **distributed systems**, currently focusing on **fault-tolerance** and agent **incentives**.
+
+Previously, I completed my Master's degree at the [University of Oxford](https://www.cs.ox.ac.uk/) :uk:, focusing on advanced, concurrent and probabilistic algorithms and data structures, computational complexity and programming languages theory. 
+
+When not working, during winter you will likely find me on the slopes. :ski:
