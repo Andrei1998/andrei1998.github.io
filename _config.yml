@@ -8,8 +8,8 @@ middle_name:
 last_name: Constantinescu
 email: aconstantine@ethz.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-My research centers around computational aspects of social choice and game theory. In particular, designing and analyzing mechanisms driving efficiency, stability and fairness of collective decision making.
-More broadly, I am interested in algorithms and distributed systems, currently focusing on fault-tolerance and agent incentives.
+  My research centers around computational aspects of social choice and game theory. In particular, designing and analyzing mechanisms driving efficiency, stability and fairness of collective decision making.
+  More broadly, I am interested in algorithms and distributed systems, currently focusing on fault-tolerance and agent incentives.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
