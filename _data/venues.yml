@@ -4,6 +4,10 @@
 "arXiv":
   color: "#6600ff"
 
+"OPODIS 23":
+  url: https://xdefago.github.io/opodis23/
+  color: "#49be25"
+
 "WINE 23":
   url: https://wine2023.shanghaitech.edu.cn/
   color: "#ac5eec"
