@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-24 12:00:00+0200
+date: 2023-10-30 12:00:00+0200
 inline: true
 related_posts: false
 ---
 
-Our paper "[Stable Dinner Party Seating Arrangements](https://arxiv.org/abs/2305.09549)" was selected to receive the WINE 2023 *Best Paper Award*. :trophy:
+Our paper "[A Fair and Resilient Decentralized Clock Network for Transaction Ordering](https://arxiv.org/abs/2305.05206)" was accepted to OPODIS 2023. :alarm_clock:
