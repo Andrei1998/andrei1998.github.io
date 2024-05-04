@@ -4,6 +4,10 @@
 "arXiv":
   color: "#6600ff"
 
+"ICALP 24":
+  url: https://compose.ioc.ee/icalp2024/
+  color: "#c70039"
+
 "OPODIS 23":
   url: https://xdefago.github.io/opodis23/
   color: "#2e9010"
