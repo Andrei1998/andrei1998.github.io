@@ -5,6 +5,21 @@
 % Conference Papers.
 %%%%%%%%%%%%%%%%%%%%
 
+@InProceedings{Constantinescu2024Convex,
+  author = {Constantinescu, Andrei and Ghinea, Diana and Wattenhofer, Roger and Westermann, Floris},
+  title = {Convex Consensus with Asynchronous Fallback},
+  booktitle = {Proceedings of the 38th International Symposium on Distributed Computing, Madrid, Spain},
+  abbr={DISC 24},
+  year = {2024},
+  month = {October},
+  url = {https://eprint.iacr.org/2023/1364},
+  abstract={Convex Consensus (CC) allows a set of parties to agree on a value \(v\) inside the convex hull of their inputs with respect to a predefined convexity notion, even in the presence of byzantine parties. In this work, we focus on achieving CC in the best-of-both-worlds paradigm, i.e., simultaneously tolerating at most \(t_s\) corruptions if communication is synchronous, and at most \(t_a \leq t_s\) corruptions if it is asynchronous. Our protocol is randomized, which is a requirement under asynchrony, and we prove that it achieves optimal resilience.
+In the process, we introduce communication primitives tailored to the best-of-both-worlds model, which we believe to be of independent interest. These are a deterministic primitive, which allows honest parties to obtain intersecting views, and a randomized primitive, leading to identical views (which is impossible to achieve deterministically).
+Afterwards, we consider achieving consensus using deterministic protocols, for which the agreement condition must be appropriately relaxed depending on the convexity space. For the relevant case of graph convexity spaces, we find that a previous asynchronous approximate agreement protocol for chordal graphs is incorrect, and hereby give a new protocol for the problem designed for the best-of-both-worlds model and achieving tight point-wise resilience bounds. Finally, we show that asynchronous graph approximate agreement remains unsolvable by deterministic protocols even when corruptions are restricted to at most two crashing nodes and the distance agreement threshold is linear in the size of the graph.},
+  eprint_to_show={2023/1364},
+  bibtex_show={true},
+}
+
 @InProceedings{Constantinescu2024Clocks,
   author = {Constantinescu, Andrei and Ghinea, Diana and Sliwinski, Jakub and Wattenhofer, Roger},
   title = {Brief Announcement: Unifying Partial Synchrony},
@@ -18,21 +33,6 @@
 (ii) The Unknown Latency (UL) model: the network is, in fact, synchronous, but the message delay bound is unknown.
 This work formally establishes that any time-agnostic property that can be achieved by a protocol in the UL model can also be achieved by a (possibly different) protocol in the GST model. By time-agnostic, we mean properties that can depend on the order in which events happen but not on time as measured by the parties. Most properties considered in distributed computing are time-agnostic. The converse was already known, even without the time-agnostic requirement, so our result shows that the two network conditions are, under one sensible assumption, equally demanding.},
   arxiv = {2405.10249},
-  bibtex_show={true},
-}
-
-@InProceedings{Constantinescu2024Convex,
-  author = {Constantinescu, Andrei and Ghinea, Diana and Wattenhofer, Roger and Westermann, Floris},
-  title = {Convex Consensus with Asynchronous Fallback},
-  booktitle = {Proceedings of the 38th International Symposium on Distributed Computing, Madrid, Spain},
-  abbr={DISC 24},
-  year = {2024},
-  month = {October},
-  url = {https://eprint.iacr.org/2023/1364},
-  abstract={Convex Consensus (CC) allows a set of parties to agree on a value \(v\) inside the convex hull of their inputs with respect to a predefined convexity notion, even in the presence of byzantine parties. In this work, we focus on achieving CC in the best-of-both-worlds paradigm, i.e., simultaneously tolerating at most \(t_s\) corruptions if communication is synchronous, and at most \(t_a \leq t_s\) corruptions if it is asynchronous. Our protocol is randomized, which is a requirement under asynchrony, and we prove that it achieves optimal resilience.
-In the process, we introduce communication primitives tailored to the best-of-both-worlds model, which we believe to be of independent interest. These are a deterministic primitive, which allows honest parties to obtain intersecting views, and a randomized primitive, leading to identical views (which is impossible to achieve deterministically).
-Afterwards, we consider achieving consensus using deterministic protocols, for which the agreement condition must be appropriately relaxed depending on the convexity space. For the relevant case of graph convexity spaces, we find that a previous asynchronous approximate agreement protocol for chordal graphs is incorrect, and hereby give a new protocol for the problem designed for the best-of-both-worlds model and achieving tight point-wise resilience bounds. Finally, we show that asynchronous graph approximate agreement remains unsolvable by deterministic protocols even when corruptions are restricted to at most two crashing nodes and the distance agreement threshold is linear in the size of the graph.},
-  eprint_to_show={2023/1364},
   bibtex_show={true},
 }
 
