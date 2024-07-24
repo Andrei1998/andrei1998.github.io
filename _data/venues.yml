@@ -4,6 +4,10 @@
 "arXiv":
   color: "#6600ff"
 
+"DISC 24":
+  url: https://www.disc-conference.org/wp/disc2024/
+  color: "#b509ac"
+
 "ICALP 24":
   url: https://compose.ioc.ee/icalp2024/
   color: "#c70039"
