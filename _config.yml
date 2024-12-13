@@ -304,6 +304,7 @@ scholar:
   type_names: {
     misc: Preprints,
     bachelorthesis: Bachelor Theses,
+    internshipthesis: Internship Theses,
     semesterthesis: Semester Theses,
     masterthesis: Master Theses,
   }

@@ -29,7 +29,7 @@
   color: "#bc131f"
 
 "AAAI 24":
-  url: https://aaai.org/aaai-conference/
+  url: https://aaai.org/conference/aaai/aaai-24/
   color: "#fbbd3c"
 
 "AAAI 21":
@@ -40,8 +40,9 @@
 "Bachelor":
   color: "#45ba13"
 
-# "Semester":
-#   color: "#f8bb00"
+"Intern":
+  color: "#fbbd3c"
+
 "Semester":
   color: "#00a0f8"
 

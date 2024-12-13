@@ -2,6 +2,19 @@
 ---
 
 %%%%%%%%%%%%%%%%%%%%
+%%%% Preprints. %%%%
+%%%%%%%%%%%%%%%%%%%%
+@Misc{constantinescu2024validitynetworkagnosticbyzantineagreement,
+    title={Validity in Network-Agnostic Byzantine Agreement}, 
+    author={Constantinescu, Andrei and Dufay, Marc and Ghinea, Diana  and Wattenhofer, Roger},
+    year={2024},
+    arxiv={2410.19721},
+    abbr={arXiv},
+    abstract={In Byzantine Agreement (BA), there is a set of \(n\) parties, from which up to \(t\) can act byzantine. All honest parties must eventually decide on a common value (agreement), which must belong to a set determined by the inputs (validity). Depending on the use case, this set can grow or shrink, leading to various possible desiderata collectively known as validity conditions. Varying the validity property requirement can affect the regime under which BA is solvable. We study how the selected validity property impacts BA solvability in the network-agnostic model, where the network can either be synchronous with up to \(t_s\) byzantine parties or asynchronous with up to \(t_a \leq \t_s\) byzantine parties.
+We show that for any non-trivial validity property the condition \(2 \cdot t_s + t_a < n\) is necessary for BA to be solvable, even with cryptographic setup. Noteworthy, specializing this claim to \(t_a = 0\) gives that \(t_s < n/2\) is required when one expects a purely synchronous protocol to also work in asynchrony when there are no corruptions. This is especially surprising given that for some validity properties \(t_s < n\) is known to be achievable without the last stipulation. Thereafter, we give necessary and sufficient conditions for a validity property to render BA solvable, both for the case with cryptographic setup and for the one without. This traces the precise boundary of solvability in the network-agnostic model for every validity property. Our proof of sufficiency provides a universal protocol, that achieves BA for a given validity property whenever the provided conditions are satisfied.}
+}
+
+%%%%%%%%%%%%%%%%%%%%
 % Conference Papers.
 %%%%%%%%%%%%%%%%%%%%
 
