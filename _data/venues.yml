@@ -4,6 +4,9 @@
 "arXiv":
   color: "#6600ff"
 
+"In Submission":
+  color: "#8a8587"
+
 "DISC 24":
   url: https://www.disc-conference.org/wp/disc2024/
   color: "#b509ac"
@@ -40,7 +43,7 @@
 "Bachelor":
   color: "#45ba13"
 
-"Intern":
+"Internship":
   color: "#fbbd3c"
 
 "Semester":
