@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to AAMAS 2024. :detective:
+Two papers accepted to AAMAS 2025. :detective:
