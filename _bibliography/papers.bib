@@ -4,23 +4,43 @@
 %%%%%%%%%%%%%%%%%%%%
 %%%% Preprints. %%%%
 %%%%%%%%%%%%%%%%%%%%
-@misc{Constantinescu2024RoadPricing,
-    author={Constantinescu, Andrei and Turko, Andrzej and Wattenhofer, Roger},
-    title={Logarithmic Approximation for Road Pricing on Grids},
-    year=2024,
+@misc{Constantinescu2025ByzantineStableMatching,
+    title={Byzantine Stable Matching}, 
+    author={Constantinescu, Andrei and Dufay, Marc and Ghinea, Diana and Wattenhofer, Roger},
+    year={2025},
+    arxiv={2502.05889},
+    abbr={arXiv},
+    bibtex_show={true},
+    abstract={In stable matching, one must find a matching between two sets of agents, commonly men and women, or job applicants and job positions. Each agent has a preference ordering over who they want to be matched with. Moreover a matching is said to be stable if no pair of matched agents prefer each other compared to their current matching.
+We consider solving stable matching in a distributed synchronous setting, where each agent is its own process. Moreover, we assume up to \(t_L\) agents on one side and \(t_R\) on the other side can be byzantine. After properly defining the stable matching problem in this setting, we study its solvability.
+When there are as many agents on each side with fully-ordered preference lists, we give necessary and sufficient conditions for stable matching to be solvable in the synchronous setting. These conditions depend on the communication model used, i.e., if parties on the same side are allowed to communicate directly, and on the presence of a cryptographic setup, i.e., digital signatures.},
+}
+
+@misc{Acilan2025TFM,
+    author={Acilan, Bahar and Constantinescu, Andrei and Heimbach, Lioba and Wattenhofer, Roger},
+    title={Transaction Fee Market Design for Parallel Execution},
+    year=2025,
     abbr={In Submission},
     bibtex_show={true},
 }
 
 @misc{Constantinescu2024Validity,
     title={Validity in Network-Agnostic Byzantine Agreement}, 
-    author={Constantinescu, Andrei and Dufay, Marc and Ghinea, Diana  and Wattenhofer, Roger},
+    author={Constantinescu, Andrei and Dufay, Marc and Ghinea, Diana and Wattenhofer, Roger},
     year={2024},
     arxiv={2410.19721},
     abbr={arXiv},
     bibtex_show={true},
     abstract={In Byzantine Agreement (BA), there is a set of \(n\) parties, from which up to \(t\) can act byzantine. All honest parties must eventually decide on a common value (agreement), which must belong to a set determined by the inputs (validity). Depending on the use case, this set can grow or shrink, leading to various possible desiderata collectively known as validity conditions. Varying the validity property requirement can affect the regime under which BA is solvable. We study how the selected validity property impacts BA solvability in the network-agnostic model, where the network can either be synchronous with up to \(t_s\) byzantine parties or asynchronous with up to \(t_a \leq t_s\) byzantine parties.
 We show that for any non-trivial validity property the condition \(2 \cdot t_s + t_a < n\) is necessary for BA to be solvable, even with cryptographic setup. Noteworthy, specializing this claim to \(t_a=0\) gives that \(t_s < n/2\) is required when one expects a purely synchronous protocol to also work in asynchrony when there are no corruptions. This is especially surprising given that for some validity properties \(t_s < n\) is known to be achievable without the last stipulation. Thereafter, we give necessary and sufficient conditions for a validity property to render BA solvable, both for the case with cryptographic setup and for the one without. This traces the precise boundary of solvability in the network-agnostic model for every validity property. Our proof of sufficiency provides a universal protocol, that achieves BA for a given validity property whenever the provided conditions are satisfied.},
+}
+
+@misc{Constantinescu2024RoadPricing,
+    author={Constantinescu, Andrei and Turko, Andrzej and Wattenhofer, Roger},
+    title={Logarithmic Approximation for Road Pricing on Grids},
+    year=2024,
+    abbr={In Submission},
+    bibtex_show={true},
 }
 
 %%%%%%%%%%%%%%%%%%%%
