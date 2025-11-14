@@ -7,6 +7,18 @@
 "In Submission":
   color: "#8a8587"
 
+"AFT 25":
+  url: https://advfintech.org/aft25/index.html
+  color: "#75b9be"
+
+"PODC 25":
+  url: https://www.podc.org/podc2025/
+  color: "#00a36c"
+
+"DISC 25":
+  url: https://www.disc-conference.org/wp/disc2025/
+  color: "#b509ac"
+
 "DISC 24":
   url: https://www.disc-conference.org/wp/disc2024/
   color: "#b509ac"
