@@ -43,6 +43,7 @@ Our work investigates how the selected validity property impacts BA solvability 
 We note that, for any non-trivial validity property, the condition \(2 \cdot t_s + t_a < n\) is necessary for BA to be solvable, even with cryptographic setup. Specializing this claim to \(t_a = 0\) gives that \(t < n/2\) is required whenever one expects a purely synchronous protocol to also work in an asynchronous network when there are no corruptions. This is especially surprising given that, for some validity properties, \(t < n\) is a sufficient condition without the last stipulation.},
   award={Highlighted Paper},
   month = {October},
+  html = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.DISC.2025.24},
 }
 
 @InProceedings{Constantinescu2025AdaptiveBA,
@@ -69,6 +70,7 @@ We note that, for any non-trivial validity property, the condition \(2 \cdot t_s
 In the partially synchronous setting, we present the first Byzantine Agreement protocol that achieves adaptive communication complexity of \(\mathcal{O}(n + t \cdot f)\) words, which is asymptotically optimal. Our protocol has an optimal resilience of \(t < n/3\).
 In the asynchronous setting, we prove a lower bound of \(\Omega(n + t^2)\) on the expected number of messages, and design an almost matching protocol with an optimal resilience that solves agreement with \(\mathcal{O}((n + t^2)\cdot \log n)\) words. Our main technical contribution in the asynchronous setting is the utilization of a bipartite expander graph that allows for low-cost information dissemination.},
   month         = {October},
+  html          = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.DISC.2025.52},
 }
 
 @InProceedings{Acilan2025TFM,
@@ -94,6 +96,7 @@ In the asynchronous setting, we prove a lower bound of \(\Omega(n + t^2)\) on th
   abstract={Given the low throughput of blockchains like Bitcoin and Ethereum, scalability - the ability to process an increasing number of transactions - has become a central focus of blockchain research. One promising approach is the parallelization of transaction execution across multiple threads. However, achieving efficient parallelization requires a redesign of the incentive structure within the fee market. Currently, the fee market does not differentiate between transactions that access multiple high-demand storage keys (i.e., unique identifiers for individual data entries) versus a single low-demand one, as long as they require the same computational effort. Addressing this discrepancy is crucial for enabling more effective parallel execution.
 In this work, we aim to bridge the gap between the current fee market and the need for parallel execution by exploring alternative fee market designs. To this end, we propose a framework consisting of two key components: a Gas Computation Mechanism (GCM), which quantifies the load a transaction places on the network in terms of parallelization and computation, measured in units of gas, and a Transaction Fee Mechanism (TFM), which assigns a price to each unit of gas. We additionally introduce a set of desirable properties for a GCM, propose several candidate mechanisms, and evaluate them against these criteria. Our analysis highlights two strong candidates: the weighted area GCM, which integrates smoothly with existing TFMs such as EIP‑1559 and satisfies a broad subset of the outlined properties, and the time-proportional makespan GCM, which assigns gas costs based on the context of the entire block’s schedule and, through this dependence on the overall execution outcome, captures the dynamics of parallel execution more accurately.},
   month = {October},
+  html = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.23},
 }
 
 @InProceedings{Constantinescu2025ByzantineStableMatching,
@@ -119,6 +122,7 @@ When there are as many agents on each side with fully-ordered preference lists, 
   abbr={PODC 25},
   month = {June},
   award={Best Paper Award},
+  html= {https://dl.acm.org/doi/10.1145/3732772.3733525},
 }
 
 @InProceedings{Constantinescu2025ByzantineBoxes,
@@ -139,6 +143,7 @@ When there are as many agents on each side with fully-ordered preference lists, 
   abbr = {AAMAS 25},
   bibtex_show = {true},
   arxiv = {2502.14812}
+  html = {https://dl.acm.org/doi/10.5555/3709347.3743567},
 }
 
 
@@ -162,6 +167,7 @@ When there are as many agents on each side with fully-ordered preference lists, 
 We show that it is co-NP-hard to determine whether there exists a Condorcet-winning proposal even without weights. In contrast, we prove that the single-switch condition provides an Ostrogorski-free voting domain under identical weighting vectors. We show that verifying the condition can be achieved in linear time and no-instances admit short, efficiently computable proofs in the form of forbidden substructures. On the way, we give the simplest linear-time test for the voter/candidate-extremal-interval condition in approval voting and the simplest and most efficient algorithm for recognizing single-crossing preferences in ordinal voting.
 We then tackle Anscombe's Paradox. Under identical weight vectors, we can guarantee a majority-supported proposal agreeing with IWM on strictly more than half of the overall weight, while with two distinct weight vectors, such proposals can get arbitrarily far from IWM. The severity of such examples is controlled by the maximum average topic weight \(\tilde{w}_{\max}\): a simple bound derived from a partition-based approach is tight on a large portion of the range \(\tilde{w}_{\max} \in (0,1)\). Finally, we extend Wagner's rule to the weighted setting: an average majority across topics of at least \(3/4\) precludes Anscombe's paradox from occurring.},
   arxiv        = {2502.14639},
+  html         = {https://dl.acm.org/doi/10.5555/3709347.3743530},
 }
 
 
