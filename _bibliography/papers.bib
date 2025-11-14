@@ -4,18 +4,6 @@
 %%%%%%%%%%%%%%%%%%%%
 %%%% Preprints. %%%%
 %%%%%%%%%%%%%%%%%%%%
-@misc{Constantinescu2025ByzantineStableMatching,
-    title={Byzantine Stable Matching}, 
-    author={Constantinescu, Andrei and Dufay, Marc and Ghinea, Diana and Wattenhofer, Roger},
-    year={2025},
-    arxiv={2502.05889},
-    abbr={arXiv},
-    bibtex_show={true},
-    abstract={In stable matching, one must find a matching between two sets of agents, commonly men and women, or job applicants and job positions. Each agent has a preference ordering over who they want to be matched with. Moreover a matching is said to be stable if no pair of matched agents prefer each other compared to their current matching.
-We consider solving stable matching in a distributed synchronous setting, where each agent is its own process. Moreover, we assume up to \(t_L\) agents on one side and \(t_R\) on the other side can be byzantine. After properly defining the stable matching problem in this setting, we study its solvability.
-When there are as many agents on each side with fully-ordered preference lists, we give necessary and sufficient conditions for stable matching to be solvable in the synchronous setting. These conditions depend on the communication model used, i.e., if parties on the same side are allowed to communicate directly, and on the presence of a cryptographic setup, i.e., digital signatures.},
-}
-
 @misc{Constantinescu2024RoadPricing,
     author={Constantinescu, Andrei and Turko, Andrzej and Wattenhofer, Roger},
     title={Logarithmic Approximation for Road Pricing on Grids},
@@ -52,6 +40,30 @@ Our work investigates how the selected validity property impacts BA solvability 
 We note that, for any non-trivial validity property, the condition \(2 \cdot t_s + t_a < n\) is necessary for BA to be solvable, even with cryptographic setup. Specializing this claim to \(t_a = 0\) gives that \(t < n/2\) is required whenever one expects a purely synchronous protocol to also work in an asynchronous network when there are no corruptions. This is especially surprising given that, for some validity properties, \(t < n\) is a sufficient condition without the last stipulation.},
 }
 
+@InProceedings{Constantinescu2025AdaptiveBA,
+  author        = {Constantinescu, Andrei and Dufay, Marc and Paramonov, Anton and Wattenhofer, Roger},
+  title         = {{Brief Announcement: From Few to Many Faults: Adaptive Byzantine Agreement with Optimal Communication}},
+  booktitle     = {39th International Symposium on Distributed Computing (DISC 2025)},
+  pages         = {52:1--52:8},
+  series        = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN          = {978-3-95977-402-4},
+  ISSN          = {1868-8969},
+  year          = {2025},
+  arxiv         = {2505.19989},
+  abbr          = {DISC 25},
+  bibtex_show   = {true},
+  volume        = {356},
+  editor        = {Kowalski, Dariusz R.},
+  publisher     = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address       = {Dagstuhl, Germany},
+  URL           = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.DISC.2025.52},
+  URN           = {urn:nbn:de:0030-drops-248680},
+  doi           = {10.4230/LIPIcs.DISC.2025.52},
+  annote        = {Keywords: Byzantine Agreement, Communication Complexity, Adaptive Communication Complexity, Resilience},
+  abstract      = {We study the problem of Strong Byzantine Agreement and establish tight upper and lower bounds on communication complexity, parameterized by the actual number of Byzantine faults. Specifically, for a system of \(n\) parties tolerating up to \(t\) Byzantine faults, out of which only \(f \le t\) are actually faulty, we obtain the following results:
+In the partially synchronous setting, we present the first Byzantine Agreement protocol that achieves adaptive communication complexity of \(\mathcal{O}(n + t \cdot f)\) words, which is asymptotically optimal. Our protocol has an optimal resilience of \(t < n/3\).
+In the asynchronous setting, we prove a lower bound of \(\Omega(n + t^2)\) on the expected number of messages, and design an almost matching protocol with an optimal resilience that solves agreement with \(\mathcal{O}((n + t^2)\cdot \log n)\) words. Our main technical contribution in the asynchronous setting is the utilization of a bipartite expander graph that allows for low-cost information dissemination.},
+}
 
 @InProceedings{Acilan2025TFM,
   author =	{Acilan, Bahar and Constantinescu, Andrei and Heimbach, Lioba and Wattenhofer, Roger},
@@ -74,6 +86,29 @@ We note that, for any non-trivial validity property, the condition \(2 \cdot t_s
   bibtex_show={true},
   abstract={Given the low throughput of blockchains like Bitcoin and Ethereum, scalability - the ability to process an increasing number of transactions - has become a central focus of blockchain research. One promising approach is the parallelization of transaction execution across multiple threads. However, achieving efficient parallelization requires a redesign of the incentive structure within the fee market. Currently, the fee market does not differentiate between transactions that access multiple high-demand storage keys (i.e., unique identifiers for individual data entries) versus a single low-demand one, as long as they require the same computational effort. Addressing this discrepancy is crucial for enabling more effective parallel execution.
 In this work, we aim to bridge the gap between the current fee market and the need for parallel execution by exploring alternative fee market designs. To this end, we propose a framework consisting of two key components: a Gas Computation Mechanism (GCM), which quantifies the load a transaction places on the network in terms of parallelization and computation, measured in units of gas, and a Transaction Fee Mechanism (TFM), which assigns a price to each unit of gas. We additionally introduce a set of desirable properties for a GCM, propose several candidate mechanisms, and evaluate them against these criteria. Our analysis highlights two strong candidates: the weighted area GCM, which integrates smoothly with existing TFMs such as EIP‑1559 and satisfies a broad subset of the outlined properties, and the time-proportional makespan GCM, which assigns gas costs based on the context of the entire block’s schedule and, through this dependence on the overall execution outcome, captures the dynamics of parallel execution more accurately.},
+}
+
+@InProceedings{Constantinescu2025ByzantineStableMatching,
+  author = {Constantinescu, Andrei and Dufay, Marc and Ghinea, Diana and Wattenhofer, Roger},
+  title = {Byzantine Stable Matching},
+  year = {2025},
+  isbn = {9798400718854},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3732772.3733525},
+  doi = {10.1145/3732772.3733525},
+  abstract = {In stable matching, one must find a matching between two sets of agents, commonly men and women, or job applicants and job positions. Each agent has a preference ordering over who they want to be matched with. Moreover a matching is said to be stable if no pair of agents prefer each other over their current matching.
+We consider solving stable matching in a distributed synchronous setting, where each agent is its own process. Moreover, we assume up to \(t_L\) agents on one side and \(t_R\) on the other side can be byzantine. After properly defining the stable matching problem in this setting, we study its solvability.
+When there are as many agents on each side with fully-ordered preference lists, we give necessary and sufficient conditions for stable matching to be solvable in the synchronous setting. These conditions depend on the communication model used, i.e., if parties on the same side are allowed to communicate directly, and on the presence of a cryptographic setup, i.e., digital signatures.},
+  booktitle = {Proceedings of the ACM Symposium on Principles of Distributed Computing},
+  pages = {181--191},
+  numpages = {11},
+  keywords = {stable matching, byzantine faults, distributed protocol},
+  location = {Hotel Las Brisas Huatulco, Huatulco, Mexico},
+  series = {PODC '25},
+  arxiv={2502.05889},
+  bibtex_show={true},
+  abbr={PODC 25},
 }
 
 @InProceedings{Constantinescu2025ByzantineBoxes,
