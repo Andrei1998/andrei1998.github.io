@@ -38,6 +38,7 @@
   abstract={Byzantine Agreement (BA) considers a setting of \(n\) parties, out of which up to \(t\) can exhibit byzantine (malicious) behavior. Honest parties must decide on a common value (agreement), which must belong to a set determined by the honest inputs (validity). Depending on the use case, this set can grow or shrink, leading to various possible desiderata collectively known as validity conditions. Varying the validity property requirement can affect the regime under which BA is solvable.
 Our work investigates how the selected validity property impacts BA solvability in the network-agnostic model, where the network can either be synchronous with up to \(t_s\) byzantine parties or asynchronous with up to \(t_a \le t_s\) byzantine parties. We give necessary and sufficient conditions for a validity property to render BA solvable, both for the case with cryptographic setup and for the one without. This traces the precise boundary of solvability in the network-agnostic model for every validity property. Our proof of sufficiency provides a universal protocol, that achieves BA for a given validity property whenever the provided conditions are satisfied.
 We note that, for any non-trivial validity property, the condition \(2 \cdot t_s + t_a < n\) is necessary for BA to be solvable, even with cryptographic setup. Specializing this claim to \(t_a = 0\) gives that \(t < n/2\) is required whenever one expects a purely synchronous protocol to also work in an asynchronous network when there are no corruptions. This is especially surprising given that, for some validity properties, \(t < n\) is a sufficient condition without the last stipulation.},
+  award={Highlighted Paper},
 }
 
 @InProceedings{Constantinescu2025AdaptiveBA,
@@ -110,6 +111,7 @@ When there are as many agents on each side with fully-ordered preference lists, 
   arxiv={2502.05889},
   bibtex_show={true},
   abbr={PODC 25},
+  award={Best Paper Award},
 }
 
 @InProceedings{Constantinescu2025ByzantineBoxes,
