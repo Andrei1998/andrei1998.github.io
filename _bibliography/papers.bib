@@ -16,14 +16,6 @@ We consider solving stable matching in a distributed synchronous setting, where 
 When there are as many agents on each side with fully-ordered preference lists, we give necessary and sufficient conditions for stable matching to be solvable in the synchronous setting. These conditions depend on the communication model used, i.e., if parties on the same side are allowed to communicate directly, and on the presence of a cryptographic setup, i.e., digital signatures.},
 }
 
-@misc{Acilan2025TFM,
-    author={Acilan, Bahar and Constantinescu, Andrei and Heimbach, Lioba and Wattenhofer, Roger},
-    title={Transaction Fee Market Design for Parallel Execution},
-    year=2025,
-    abbr={In Submission},
-    bibtex_show={true},
-}
-
 @misc{Constantinescu2024RoadPricing,
     author={Constantinescu, Andrei and Turko, Andrzej and Wattenhofer, Roger},
     title={Logarithmic Approximation for Road Pricing on Grids},
@@ -60,7 +52,31 @@ Our work investigates how the selected validity property impacts BA solvability 
 We note that, for any non-trivial validity property, the condition \(2 \cdot t_s + t_a < n\) is necessary for BA to be solvable, even with cryptographic setup. Specializing this claim to \(t_a = 0\) gives that \(t < n/2\) is required whenever one expects a purely synchronous protocol to also work in an asynchronous network when there are no corruptions. This is especially surprising given that, for some validity properties, \(t < n\) is a sufficient condition without the last stipulation.},
 }
 
-@InProceedings{Constantinescu2024ByzantineBoxes,
+
+@InProceedings{Acilan2025TFM,
+  author =	{Acilan, Bahar and Constantinescu, Andrei and Heimbach, Lioba and Wattenhofer, Roger},
+  title =	{{Transaction Fee Market Design for Parallel Execution}},
+  booktitle =	{7th Conference on Advances in Financial Technologies (AFT 2025)},
+  pages =	{23:1--23:25},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-400-0},
+  ISSN =	{1868-8969},
+  year =	{2025},
+  volume =	{354},
+  editor =	{Avarikioti, Zeta and Christin, Nicolas},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.23},
+  URN =		{urn:nbn:de:0030-drops-247426},
+  doi =		{10.4230/LIPIcs.AFT.2025.23},
+  annote =	{Keywords: blockchain, transaction fee mechanism, parallel execution},
+  abbr={AFT 25},
+  bibtex_show={true},
+  abstract={Given the low throughput of blockchains like Bitcoin and Ethereum, scalability - the ability to process an increasing number of transactions - has become a central focus of blockchain research. One promising approach is the parallelization of transaction execution across multiple threads. However, achieving efficient parallelization requires a redesign of the incentive structure within the fee market. Currently, the fee market does not differentiate between transactions that access multiple high-demand storage keys (i.e., unique identifiers for individual data entries) versus a single low-demand one, as long as they require the same computational effort. Addressing this discrepancy is crucial for enabling more effective parallel execution.
+In this work, we aim to bridge the gap between the current fee market and the need for parallel execution by exploring alternative fee market designs. To this end, we propose a framework consisting of two key components: a Gas Computation Mechanism (GCM), which quantifies the load a transaction places on the network in terms of parallelization and computation, measured in units of gas, and a Transaction Fee Mechanism (TFM), which assigns a price to each unit of gas. We additionally introduce a set of desirable properties for a GCM, propose several candidate mechanisms, and evaluate them against these criteria. Our analysis highlights two strong candidates: the weighted area GCM, which integrates smoothly with existing TFMs such as EIP‑1559 and satisfies a broad subset of the outlined properties, and the time-proportional makespan GCM, which assigns gas costs based on the context of the entire block’s schedule and, through this dependence on the overall execution outcome, captures the dynamics of parallel execution more accurately.},
+}
+
+@InProceedings{Constantinescu2025ByzantineBoxes,
     author={Constantinescu, Andrei and Wattenhofer, Roger},
     title={Byzantine Game Theory: Sun Tzu's Boxes},
     year={2025},
@@ -71,7 +87,7 @@ We note that, for any non-trivial validity property, the condition \(2 \cdot t_s
     bibtex_show={true},
 }
 
-@InProceedings{Baharav2024CondorcetWeightedAnscombe,
+@InProceedings{Baharav2025CondorcetWeightedAnscombe,
     author={Baharav, Carmel and Constantinescu, Andrei and Wattenhofer, Roger},
     title={Condorcet Winners and Anscombe's Paradox Under Weighted Binary Voting},
     year={2025},
