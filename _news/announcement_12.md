@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to COMSOC 2025 (non-archival, acceptance rate: 69.3%), of which "[Byzantine Game Theory: Sun Tzu's Boxes](https://arxiv.org/abs/2502.14812)" received an oral presentation (acceptance rate: 33.7%). :austria:
+Two papers accepted to COMSOC 2025 (non-archival, acceptance rate: 69.4%), of which "[Byzantine Game Theory: Sun Tzu's Boxes](https://arxiv.org/abs/2502.14812)" received an oral presentation (acceptance rate: 33.7%). :austria:
