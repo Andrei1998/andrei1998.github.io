@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "[Transaction Fee Market Design for Parallel Execution](https://arxiv.org/abs/2502.11964)" was accepted to TLDR 2025 (non-archival, acceptance rate: 18/88). :newspaper:
+Our paper "[Transaction Fee Market Design for Parallel Execution](https://arxiv.org/abs/2502.11964)" was accepted to TLDR 2025 (non-archival, acceptance rate: 20.4%). :newspaper:
