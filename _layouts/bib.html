@@ -136,7 +136,7 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {{ entry.note | strip | markdownify }}
     </div>
 
     <!-- Links/Buttons -->
