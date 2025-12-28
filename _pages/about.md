@@ -22,7 +22,9 @@ social: true  # includes social icons at the bottom of the page
 I am a :romania: [PhD candidate](https://disco.ethz.ch/members/aconstantine) advised by [Prof. Roger Wattenhofer](https://disco.ethz.ch/members/wroger) in the [Distributed Computing Group](https://disco.ethz.ch/) at [ETH Zurich](https://ethz.ch/en.html). :switzerland:  
 I am currently in the later stages of my PhD.
 
-My research centers around **computational aspects of social choice and game theory**. In particular, designing and analyzing mechanisms driving efficiency, stability and fairness of collective decision making. More broadly, I am interested in **algorithms** and **distributed systems**, currently focusing on **fault-tolerance** and agent **incentives**.
+My research centers around **computational aspects of social choice and game theory**. In particular, designing and analyzing mechanisms driving efficiency, stability and fairness of collective decision making. 
+
+More broadly, I am interested in **algorithms** and **distributed systems**, currently focusing on **fault-tolerance** and agent **incentives**.
 
 In 2025, I worked as a researcher/engineer at the **DFINITY Foundation**, contributing to large-scale, fault-tolerant distributed systems.
 
