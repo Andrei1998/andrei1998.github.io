@@ -26,8 +26,6 @@ My research centers around **computational aspects of social choice and game the
 
 More broadly, I am interested in **algorithms** and **distributed systems**, currently focusing on **fault-tolerance** and agent **incentives**.
 
-In 2025, I worked as a researcher/engineer at the **DFINITY Foundation**, contributing to large-scale, fault-tolerant distributed systems.
-
 Previously, I completed my Master's degree at the [University of Oxford](https://www.cs.ox.ac.uk/) :uk:, focusing on advanced, concurrent and probabilistic algorithms and data structures, computational complexity and programming languages theory. 
 
 When not working, during winter you will likely find me on the slopes. :ski:
